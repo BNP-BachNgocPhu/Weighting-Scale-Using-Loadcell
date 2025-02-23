@@ -7,7 +7,7 @@ double zerotime =0;
 double spantime =0;
 double zero;
 double span; 
-const int LEDPIN = 14; // Định nghĩa chân kết nối LED
+const int LEDPIN = 14; 
 const int BUZZER = 12;
 const int LOADCELL_DOUT_PIN = 4;
 int t=100;
@@ -99,7 +99,6 @@ void loop() {
     int address = 0;
     EEPROM.writeDouble(address, zerotime);
     EEPROM.commit();
-    // Lưu số xxxxxx.x tại địa chỉ EEPROM 8 (kích thước double là 8 byte)
     address = 8;
     EEPROM.writeDouble(address, spantime);
     EEPROM.commit();
@@ -128,9 +127,6 @@ void loop() {
     weightfiltPre = reading;
     Serial.println(weightFilt);
 
-
-
-    
     lcd.setCursor(0, 0);  
     lcd.print("  CAN DIEN TU  ");
     lcd.setCursor(11, 1);  
