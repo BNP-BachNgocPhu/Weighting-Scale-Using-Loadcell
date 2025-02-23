@@ -51,9 +51,7 @@ void setup() {
           lcd.print("      UA741     ");  
           delay(1500);
           lcd.clear();
-          
-  
-          
+
           lcd.setCursor(0, 0);  
           lcd.print("Designed by:     ");
           delay(800);
@@ -70,20 +68,6 @@ void setup() {
            lcd.setCursor(0, 0);lcd.print("  BACH NGOC P   ");delay(t);          
            lcd.setCursor(0, 0);lcd.print("  BACH NGOC PH  ");delay(t); 
            lcd.setCursor(0, 0);lcd.print("  BACH NGOC PHU  ");delay(t);
-        
-
-           lcd.setCursor(0, 1);lcd.print("  B             ");delay(t);
-           lcd.setCursor(0, 1);lcd.print("  BU            ");delay(t);
-           lcd.setCursor(0, 1);lcd.print("  BUI           ");delay(t);          
-           lcd.setCursor(0, 1);lcd.print("  BUI M         ");delay(t);          
-           lcd.setCursor(0, 1);lcd.print("  BUI MI        ");delay(t);          
-           lcd.setCursor(0, 1);lcd.print("  BUI MIN       ");delay(t);          
-           lcd.setCursor(0, 1);lcd.print("  BUI MINH      ");delay(t);          
-           lcd.setCursor(0, 1);lcd.print("  BUI MINH D    ");delay(t);          
-           lcd.setCursor(0, 1);lcd.print("  BUI MINH DU   ");delay(t);
-           lcd.setCursor(0, 1);lcd.print("  BUI MINH DUC  ");delay(t);
-           delay(1500);
-           lcd.clear();
            delay(1500);
            lcd.clear();
 
